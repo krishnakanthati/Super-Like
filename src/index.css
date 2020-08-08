@@ -1,0 +1,56 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.fa-thumbs-up {
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px solid #1da1f2;
+  font-size: 2em;
+  color: black;
+}
+
+.fa-thumbs-up:active {
+  border-radius: 50%;
+  border: 2px solid black;
+  color: #1da1f2;
+}
+
+strong {
+  color: red;
+}
+
+.fa-heart:active {
+  color: red;
+  transform: translate(-5deg);
+}
+
+.fa {
+  cursor: pointer;
+}
